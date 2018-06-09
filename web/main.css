@@ -1,0 +1,90 @@
+/*公用*/
+.comWidth{width:1000px;margin-left:auto;margin-right: auto}
+.leftArea{float: left}
+.rightArea{float: right}
+/*topBar*/
+header{width: 100%;background-color: #9F9F9F;position: fixed;z-index: 9999;opacity: 0.8}
+.topBar{width: 1570px;height: 40px;margin: 0 auto;line-height: 40px;background-color: #9F9F9F}
+/*导航*/
+.navBox{height: 200px;width: 100%;margin-left:auto;margin-right: auto;position:relative;top: 40px}
+.logo{position: relative;left: 200px;float: left}
+.logo img{height: 120px;width: 120px}
+.navdiv{width: 700px;height: 30px;position: relative;left: 600px;top: 50px}
+.nav li{float: left}
+.nav a{padding: 0 35px;color: #000000}
+.nav a:hover{color: #a6f7c0}
+/*banner*/
+.banner{height: 493px;padding-left: 80px;padding-right: 80px;padding-top: 80px}
+.layui-form{padding:19% 35% 20% 25%;}
+/*logo*/
+.top{height: 100px;background-color: #ffffff;padding-left: 100px;padding-right: 100px}
+.login_logo{padding-left: 45%}
+.login{width:400px;padding-left: 40%;margin-top: 40px}
+
+/*----------------------商品页面------------------*/
+.mall{height: 800px;width: 1200px;margin-left:auto;margin-right: auto;padding-top: 30px}
+.mall_show{float: left;padding-top: 20px;width: 200px;border:1px ridge rgba(103, 104, 99, 0.66);background-color:white;margin-top: 20px;padding-bottom: 5px;margin-left: 18px;padding-left: 0px}
+.mall_show:hover{border:1px ridge rgba(255, 11, 0, 0.66)}
+.mall_show h1{font-size: 15px;font-family:"Arial","Microsoft YaHei";text-align: center;padding-top: 9px}
+.mall_show h2{font-size: 20px;font-family:"Arial","Microsoft YaHei";text-align: center;color: #ff8c00}
+.mall_show img{height: 180px;width: 160px;padding-left: 20px;}
+.mall_price{font-family: "Maiandra GD";font-size: 25px;color: #ff8c00}
+.mall_describe{font-size: 13px}
+.mall_Fpage{width: 100%;text-align: center}
+
+/*----------------------登录界面-----------------*/
+.Login_body{width: 99%;height: 100%;background-image: url("./img/back.jpg");background-size: 100%;}
+.Login_title{text-align: center;margin-top: 7%}
+.Login_title h3{font-size: 30px;font-family: "Arial","Microsoft YaHei";color: #f3eef2}
+.Login_back{overflow: hidden;width: 520px;height: 450px;opacity: 0.9;margin: 180px auto auto 700px;text-align: center}
+.Login_back input::-webkit-input-placeholder{color: white;font-size: 20px}
+.input_logintxt{height: 40px;width: 400px;background: rgba(45,45,45,0.15);border:1px solid #ffffff;border-radius:10px;font-size: 26px;text-indent: 10px;color: white}
+.input_login{height: 50px;width: 400px;background:rgb(239, 67, 0);border: 1px solid rgb(255, 115, 14);border-radius:10px;font-family: 'PT Sans', Helvetica, Arial, sans-serif;color: white;font-weight: 700;font-size: 20px}
+
+/*---------------------上传页面-----------------*/
+.input_mall{height: 30px;width: 400px;border:1px solid #847f83;border-radius:2px;font-size: 20px;text-indent: 5px;font-family: "Arial","Microsoft YaHei"}
+.upload_title{text-align: center}
+.upload_form{font-size: 20px;margin-left: 20px}
+.upload_form span{font-size: 10px;font-family: "Arial","Microsoft YaHei"}
+.upload_form span.name{font-size: 20px;font-family: "Arial","Microsoft YaHei"}
+.input_btn{display: block;width: 100px;height: 30px;background-color: black;color: white;}
+.input_btn:hover{background-color: #629feb;transition:all 0.2s linear}
+/*---------------------商品detail页面-----------------*/
+.include_detail{height: 500px;background-color:white;width: 100%;position:relative;top: 40px}
+.detail{margin:auto 260px auto 260px;width: 1250px}
+.malldetail_img{width: 500px;height: 500px;border: 1px ridge #dcd7db;float: left;background-color: white}
+.malldetail_img img{width: 400px;height: 400px;margin-left: 50px;margin-top: 50px}
+.malldetail_right{width: 470px;height: 500px;float: right;}
+.malldetail_right h1{font-family: "Arial", "Microsoft YaHei";font-size: 25px;margin: 20px auto 10px auto}
+.malldetail_right span,.malldetail_right h2{font-size: 20px;display: inline;}
+.malldetail_torder{background-color: black;color: white;font-size: 20px;width: 300px;height: 50px;position: relative;top: 100px;display: block;}
+.malldetail_tcollect{background-color: black;color: white;font-size: 20px;width: 75px;height: 50px;margin-left: 3px;position: relative;top: 50px;left:300px;display: block}
+.malldetail_torder:hover{background-color: #8b8b8b;transition: all 0.2s linear}
+.malldetail_tcollect:hover{background-color: #8b8b8b;transition: all 0.2s linear}
+.detailimg_show{margin:10px 400px 0 400px}
+.lotimg{margin:0 auto}
+/*---------------------后台管理页面-----------------*/
+.manager_left{width: 100px;height:100%;float: left;background-color: #000;position: fixed;z-index: 999}
+.manager_mallnav a{width: 100%;height:100px;background-color: #000;display: block;text-align: center;overflow: hidden;position: relative}
+.manager_mallnav a:hover{background-color: #629feb;transition:all 0.2s linear}
+.manager_mallnav a span{text-align: center;display: block;margin-top: 60px;position: relative;color: white}
+.manager_mallup{width: 100%;height:100%;float: left;background-color: #a6f7c0}
+.manager_right{width: 1600px;height: 100%;background-color: #fff;margin-left: 200px}
+/*---------------------商品下架页面-----------------*/
+.malldown_table{border: 1px solid black;border-collapse:collapse;margin-left: 300px}
+.malldown_table tr{width: 1000px;border: 1px solid black;height: 50px}
+.malldown_table th,td{width: 200px;border: 1px solid black;text-align: center}
+
+.malldown_table input{background-color: black;color: white;font-size: 15px;width: 95px;height: 30px;display: block;float: left;margin-left: 5px}
+.malldown_table input:hover{background-color: #629feb;transition:all 0.2s linear}
+
+
+
+
+
+
+
+
+
+
+
