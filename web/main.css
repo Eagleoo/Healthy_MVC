@@ -74,9 +74,48 @@ header{width: 100%;background-color: #9F9F9F;position: fixed;z-index: 9999;opaci
 .malldown_table{border: 1px solid black;border-collapse:collapse;margin-left: 300px}
 .malldown_table tr{width: 1000px;border: 1px solid black;height: 50px}
 .malldown_table th,td{width: 200px;border: 1px solid black;text-align: center}
-
 .malldown_table input{background-color: black;color: white;font-size: 15px;width: 95px;height: 30px;display: block;float: left;margin-left: 5px}
 .malldown_table input:hover{background-color: #629feb;transition:all 0.2s linear}
+/*---------------------商品下单页面-----------------*/
+.torder_box{margin: 0 auto;width: 1200px;height: 100px}
+.torder_logobar{height: 200px;width: 100%;margin-left:auto;margin-right: auto;position:relative;}
+.torder_logo{position: relative;left: 200px;float: left;top: 40px}
+.torder_logo img{height: 120px;width: 120px}
+.torder_title{width: 700px;height: 30px;position: relative;left: 500px;top: 80px}
+.torder_logobar h1{font-family: "Arial", "Microsoft YaHei";color: #f40;font-size: 25px}
+.torder_taddress{font-size: 20px}
+.torder_address{width: 100%;}
+.torder_addshow{margin-left: 75px;font-size: 20px;display: block;width: 100%;height: 30px;text-align: initial;}
+.torder_torder{font-size: 20px}
+.torder_torder_title{width: 100%;height: 35px}
+.torder_torder_title .title1{display: inline-block;width:350px;height: 24px;line-height: 24px;text-align: center;border-bottom: 3px solid #b2d1ff; font-size: 20px; margin-left: 1px;vertical-align: bottom;}
+.torder_torder_title .title2{display: inline-block;width:300px;height: 24px;line-height: 24px;text-align: center;border-bottom: 3px solid #b2d1ff; font-size: 20px; margin-left: 1px;vertical-align: bottom;}
+.torder_torder_title .title3{display: inline-block;width:300px;height: 24px;line-height: 24px;text-align: center;border-bottom: 3px solid #b2d1ff; font-size: 20px; margin-left: 1px;vertical-align: bottom;}
+.torder_torder_title .title4{display: inline-block;width:245px;height: 24px;line-height: 24px;text-align: center;border-bottom: 3px solid #b2d1ff; font-size: 20px; margin-left: 1px;vertical-align: bottom;}
+.torder_torder .torder_mallshow{width: 100%;height: 160px;position: relative;}
+.torder_torder .torder_mall{width: 100%;height: 100px;}
+.torder_mall_1{width: 350px;height: 100px;float: left}
+.torder_mall_1 img{height: 100px;width: 100px;float: left;margin-right:10px }
+.torder_mall_1 p{line-height: 100px;}
+.torder_mall_2{width: 300px;height: 100px;float: left;text-align: center}
+.torder_mall_3{width: 300px;height: 100px;float: left;}
+.torder_mall_count{margin-left: 80px}
+.torder_mall_3 img{width: 25px;height: 25px;margin-top: 30px;margin-left:10px;border: 1px solid #9DC1E4;display:block;float: left}
+.torder_mall_3 input{width: 30px;height: 30px;display:block;text-align:center;border: 1px solid #9DC1E4;float: left;margin-top: 30px;margin-left: 10px}
+.torder_mall_4 {width: 240px;height: 100px;text-align: center;float: left}
+#toroder_freight{color: #f40;}
+.bottom_box{text-align: right;margin-top: 15px;display: block}
+.torder_message{width: 150px;height: 25px;display: inline-block;text-align: right;border: 1px solid #f40;margin-right: 10px;padding-right: 10px}
+#torder_allmoney{color: #f40;}
+.suborder{display: inline-block;width: 182px;height: 39px;position: relative;vertical-align: middle;line-height: 39px;cursor: pointer;text-align: center;font-size: 14px;font-weight: 700;background: #f40;color: #fff;margin-top: 5px}
+/*---------------------订单管理页面-----------------*/
+.order_manager_table{border: 1px solid black;border-collapse:collapse;margin-left: 60px}
+.order_manager_table tr{width: 1000px;border: 1px solid black;height: 50px}
+.order_manager_table th,td{width: 200px;border: 1px solid black;text-align: center}
+.order_manager_table input{background-color: black;color: white;font-size: 15px;width: 65px;height: 30px;display: block;float: left;margin-left: 5px}
+.order_manager_table input:hover{background-color: #629feb;transition:all 0.2s linear}
+
+
 
 
 
