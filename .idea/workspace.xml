@@ -29,11 +29,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="JsonTools.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dao/vo/JsonTools.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="131">
               <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+=======
+      <file leaf-file-name="order_manager.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/order_manager.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/manager.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1221">
+              <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
               <folding />
             </state>
           </provider>
@@ -60,13 +88,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/controller/Plan_Count_Servlet.java" />
-        <option value="$PROJECT_DIR$/src/controller/Step_Servelet.java" />
-        <option value="$PROJECT_DIR$/src/controller/StepPlan_Into_Servlet.java" />
         <option value="$PROJECT_DIR$/src/controller/StepPlan_Select_Servlet.java" />
         <option value="$PROJECT_DIR$/src/controller/Text_Result_Servlet.java" />
         <option value="$PROJECT_DIR$/src/controller/UFood_Del_Servlet.java" />
-        <option value="$PROJECT_DIR$/src/controller/UFood_Servlet.java" />
         <option value="$PROJECT_DIR$/src/dao/Dao/IUserInfoDAO.java" />
         <option value="$PROJECT_DIR$/src/dao/vo/Address.java" />
         <option value="$PROJECT_DIR$/src/dao/Dao/IBannerDAO.java" />
@@ -104,13 +128,17 @@
         <option value="$PROJECT_DIR$/src/web_servlet/Deleteorder_Servlet.java" />
         <option value="$PROJECT_DIR$/src/web_servlet/Selectorder_Servlet.java" />
         <option value="$PROJECT_DIR$/src/dao/proxy/MallDAOImplProxy.java" />
-        <option value="$PROJECT_DIR$/src/dao/vo/JsonTools.java" />
         <option value="$PROJECT_DIR$/src/web_servlet/Insertmall_Servlet.java" />
         <option value="$PROJECT_DIR$/web/mall.jsp" />
-        <option value="$PROJECT_DIR$/src/controller/Plan_Servlet.java" />
         <option value="$PROJECT_DIR$/src/controller/Text_Servlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/dao/impl/MallDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/dao/vo/JsonTools.java" />
+        <option value="$PROJECT_DIR$/src/controller/Plan_Servlet.java" />
+        <option value="$PROJECT_DIR$/src/controller/UFood_Servlet.java" />
+        <option value="$PROJECT_DIR$/src/dao/dbc/DataBaseConnection.java" />
+        <option value="$PROJECT_DIR$/web/manager.jsp" />
+        <option value="$PROJECT_DIR$/web/main.css" />
       </list>
     </option>
   </component>
@@ -128,8 +156,13 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="534" />
     <option name="y" value="142" />
+=======
+    <option name="x" value="522" />
+    <option name="y" value="372" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -154,6 +187,8 @@
             <path>
               <item name="MVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="MVC" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="MVC" type="b2602c69:ProjectViewProjectNode" />
@@ -163,6 +198,28 @@
             <path>
               <item name="MVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="dbc" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
+            </path>
+            <path>
+              <item name="MVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MVC" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -176,15 +233,29 @@
             <path>
               <item name="MVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+=======
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
+            </path>
+            <path>
+              <item name="MVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +265,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/MVCDemo" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -525,14 +600,23 @@
       <workItem from="1528456301982" duration="365000" />
       <workItem from="1528457505296" duration="14049000" />
       <workItem from="1528522236704" duration="638000" />
+<<<<<<< HEAD
       <workItem from="1528530800205" duration="802000" />
       <workItem from="1528531841428" duration="20000" />
       <workItem from="1528531879398" duration="313000" />
+=======
+      <workItem from="1528529900800" duration="1244000" />
+      <workItem from="1528531148481" duration="439000" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="174165000" />
+=======
+    <option name="totallyTimeSpent" value="174713000" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,21 +631,35 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.079261675" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44382647" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0032573289" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.002224694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.054347824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18656716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38709676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15884861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -589,6 +687,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/dao/vo/Banner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -638,6 +737,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
     <entry file="file://$PROJECT_DIR$/src/dao/vo/StepPlan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -719,6 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -726,6 +828,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+=======
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
         </state>
       </provider>
     </entry>
@@ -733,14 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Plan_Change_Servlet2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,6 +862,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/web/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -773,6 +870,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
     <entry file="file://$PROJECT_DIR$/src/web_servlet/Insertmall_Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -787,6 +886,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/dao/dbc/DataBaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -801,6 +901,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
     <entry file="file://$PROJECT_DIR$/src/controller/Text_Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-484">
@@ -908,17 +1010,130 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/controller/Banner_Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/controller/Plan_Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/OutPutImg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Plan_Count_Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/UFood_Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/vo/JsonTools.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="131">
           <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+=======
+        <state relative-caret-position="396">
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Step_Servelet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/dbc/DataBaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Plan_Change_Servlet2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Plan_Change_Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/insert_order_Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/order_manager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+>>>>>>> 03ced1fcbb11c6e0ac6b2635b91e096b1013ed0f
           <folding />
         </state>
       </provider>

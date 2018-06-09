@@ -19,7 +19,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://D:/360安全浏览器下载/apache-tomcat-7.0.85-windows-x64/apache-tomcat-7.0.85/lib/mysql-connector-java-8.0.11.jar!/" />
@@ -28,7 +28,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://D:/apache-tomcat-9.0.5-windows-x64/apache-tomcat-9.0.5/lib/servlet-api.jar!/" />
@@ -37,7 +37,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://D:/apache-tomcat-9.0.5-windows-x64/apache-tomcat-9.0.5/lib/json-lib-2.4-jdk15.jar!/" />
@@ -46,7 +46,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://D:/apache-tomcat-9.0.5-windows-x64/apache-tomcat-9.0.5/lib/commons-beanutils-1.9.3.jar!/" />
@@ -55,7 +55,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://D:/apache-tomcat-9.0.5-windows-x64/apache-tomcat-9.0.5/lib/commons-lang-2.6.jar!/" />
@@ -64,7 +64,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://D:/apache-tomcat-9.0.5-windows-x64/apache-tomcat-9.0.5/lib/ezmorph-1.0.2.jar!/" />
@@ -73,7 +73,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://D:/apache-tomcat-9.0.5-windows-x64/apache-tomcat-9.0.5/lib/commons-logging-1.2.jar!/" />
@@ -82,7 +82,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://D:/apache-tomcat-9.0.5-windows-x64/apache-tomcat-9.0.5/lib/commons-collections-3.2.2.jar!/" />
@@ -91,13 +91,65 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://D:/apache-tomcat-9.0.5-windows-x64/apache-tomcat-9.0.5/lib/jsmartcom_zh_CN.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/apache-tomcat-9.0.5/lib/jsmartcom_zh_CN.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/apache-tomcat-9.0.5/lib/json-lib-2.4-jdk15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/apache-tomcat-9.0.5/lib/mysql-connector-java-5.1.46-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/apache-tomcat-9.0.5/lib/servlet-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/apache-tomcat-9.0.5/lib/commons-beanutils-1.9.3.jar!/" />
+          <root url="jar://E:/apache-tomcat-9.0.5/lib/commons-collections-3.2.2.jar!/" />
+          <root url="jar://E:/apache-tomcat-9.0.5/lib/commons-lang-2.6.jar!/" />
+          <root url="jar://E:/apache-tomcat-9.0.5/lib/commons-logging-1.2.jar!/" />
+          <root url="jar://E:/apache-tomcat-9.0.5/lib/ezmorph-1.0.6.jar!/" />
+          <root url="file://$MODULE_DIR$" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
