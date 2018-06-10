@@ -92,6 +92,13 @@ public class MallDAOImplProxy implements IMallDAO {
         return true;
     }
 
+    @Override
+    public boolean updateorder(String order_id, String username, String mall_id, String address, String order_count, String allprice, String consignee, String cellnumber, String ispay, String issend, String isreceive) throws Exception {
+        mallDAOImpl.updateorder(order_id,username,mall_id,address,order_count,allprice,consignee,cellnumber,ispay,issend,isreceive);
+        dbc.close();
+        return true;
+    }
+
 
     @Override
     public  List<Detail_img> selectdetailimgbyid(String mall_id) throws Exception {

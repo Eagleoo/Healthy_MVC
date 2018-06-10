@@ -1,13 +1,9 @@
 package dao.Dao;
-import dao.vo.Address;
-import dao.vo.Detail_img;
-import dao.vo.Mall;
-import dao.vo.Order;
-
+import dao.vo.*;
 import java.util.List;
 
 public interface IMallDAO {
-    public List<Mall> selectmallfortype(String type) throws Exception;
+
     public List<Mall> selectmallall()throws Exception;
     public List<Mall> selectmallallpage(int mallstart, int mallcount)throws Exception;
     public List<Mall> selectmallbyid(String id)throws Exception;
@@ -23,5 +19,7 @@ public interface IMallDAO {
     public boolean deletemall(String id)throws Exception;
     public List<Mall> selectmallforcollect(String username)throws Exception;
     public List<Order> selectallorder()throws Exception;
+    public void inserlogistics(String order_id,String l_time,String l_add)throws Exception;
     public boolean deleteorder(String order_id)throws Exception;
+    public boolean updateorder(String order_id, String username, String mall_id, String address, String order_count, String allprice, String consignee, String cellnumber, String ispay, String issend, String isreceive)throws Exception;
 }

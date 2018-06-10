@@ -313,12 +313,22 @@
         <servlet-name>Selectorder_Servlet</servlet-name>
         <url-pattern>/Selectorder_Servlet</url-pattern>
     </servlet-mapping>
+
     <servlet>
     <servlet-name>Deleteorder_Servlet</servlet-name>
     <servlet-class>web_servlet.Deleteorder_Servlet</servlet-class>
-</servlet>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Deleteorder_Servlet</servlet-name>
         <url-pattern>/Deleteorder_Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Updateorder_Servlet</servlet-name>
+        <servlet-class>web_servlet.Updateorder_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Updateorder_Servlet</servlet-name>
+        <url-pattern>/Updateorder_Servlet</url-pattern>
     </servlet-mapping>
 </web-app>

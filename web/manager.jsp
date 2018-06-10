@@ -13,7 +13,7 @@
             <li ><a href="#" onclick="showAtRight1('/mallup.jsp')"><span>商品上架</span></a></li>
             <li ><a href="#" onclick="showAtRight2('/malldown.jsp')"><span>商品下架</span></a></li>
             <li ><a href="#" onclick="showAtRight3('/order_manager.jsp')"><span>订单管理</span></a></li>
-            <li ><a href="#" onclick="showAtRight()"><span>圈子管理</span></a></li>
+            <li ><a href="#" onclick="showAtRight4('/logistics.jsp')"><span>物流管理</span></a></li>
             <li ><a href="#" onclick="showAtRight()"><span>商品下架</span></a></li>
             <li ><a href="#" onclick="showAtRight()"><span>商品下架</span></a></li>
         </ul>
@@ -73,7 +73,7 @@
                 for(var i=0;i<length;i++)
                 {
                     var ls = data[i];
-                    html="<tr><td onclick='gettddata(this)'>"+ls.order_id+"</td><td>"+ls.username+"</td><td>"+ls.mall_id+"</td>" +
+                    html="<tr><td>"+ls.order_id+"</td><td>"+ls.username+"</td><td>"+ls.mall_id+"</td>" +
                         "<td>"+ls.order_count+"</td><td>"+ls.order_allprice+"</td><td>"+ls.consignee+"</td>"+
                         "<td>"+ls.cellnumber+"</td><td>"+ls.address+"</td><td>"+ls.ispay+"</td>"+
                         "<td>"+ls.issend+"</td><td>"+ls.isreceive+"</td>"+
@@ -88,6 +88,35 @@
             }
         });
     }
+    function showAtRight4(url) {
+        showAtRight1(url);
+        $.ajax({
+            type : "post",
+            url : "http://localhost:8080/Selectorder_Servlet",
+            dataType: 'json',
+            success : function(data)
+            {
+                var length=data.length;
+                var html = "";
+                for(var i=0;i<length;i++)
+                {
+                    var ls = data[i];
+                    html="<tr><td>"+ls.order_id+"</td><td>"+ls.username+"</td><td>"+ls.mall_id+"</td>" +
+                        "<td>"+ls.order_count+"</td><td>"+ls.order_allprice+"</td><td>"+ls.consignee+"</td>"+
+                        "<td>"+ls.cellnumber+"</td><td>"+ls.address+"</td>"+
+                        "<td>"+ls.l_time+"</td><td>"+ls.l_add+"</td>"+
+                        "<td><input id='order_delete' type='button' value='删除' onclick='downorder(this)'>" +
+                        "<input id='order_change' type='button' value='修改' onclick='tabletoinput(this)'></td></tr>";
+                    $(".logistics_table").append(html);
+                }
+            },
+            error : function()
+            {
+                alert("数据传输失败!");
+            }
+        });
+    }
+
     function downmall(obj) {
         var x = $(obj).parent().parent().find("td");
         var y = x.eq(0).text();
@@ -134,12 +163,55 @@
         str = $(obj).val();
         if (str=="修改") {
             $(obj).val("确定");
-            $(this).parent().sibling().css({"border":"1px solid red"});
+            for (i=0;i<11;i++)
+                $(obj).parent(i).parent().find("td").eq(i).html("<input class='order_change_input' type='text' value='"+$(obj).parent().parent().find("td").eq(i).text()+"'>")
         }
         else{
-            $(obj).val("修改")
+            $(obj).val("修改");
+            var d0=$(obj).parent().parent().find("input").eq(0).val();
+            var d1=$(obj).parent().parent().find("input").eq(1).val();
+            var d2=$(obj).parent().parent().find("input").eq(2).val();
+            var d3=$(obj).parent().parent().find("input").eq(3).val();
+            var d4=$(obj).parent().parent().find("input").eq(4).val();
+            var d5=$(obj).parent().parent().find("input").eq(5).val();
+            var d6=$(obj).parent().parent().find("input").eq(6).val();
+            var d7=$(obj).parent().parent().find("input").eq(7).val();
+            var d8=$(obj).parent().parent().find("input").eq(8).val();
+            var d9=$(obj).parent().parent().find("input").eq(9).val();
+            var d10=$(obj).parent().parent().find("input").eq(10).val();
+
+            $(".order_change_input").remove();
+            $(obj).parent().parent().find("td").eq(0).html(d0);
+            $(obj).parent().parent().find("td").eq(1).html(d1);
+            $(obj).parent().parent().find("td").eq(2).html(d2);
+            $(obj).parent().parent().find("td").eq(3).html(d3);
+            $(obj).parent().parent().find("td").eq(4).html(d4);
+            $(obj).parent().parent().find("td").eq(5).html(d5);
+            $(obj).parent().parent().find("td").eq(6).html(d6);
+            $(obj).parent().parent().find("td").eq(7).html(d7);
+            $(obj).parent().parent().find("td").eq(8).html(d8);
+            $(obj).parent().parent().find("td").eq(9).html(d9);
+            $(obj).parent().parent().find("td").eq(10).html(d10);
+
+            // alert(d0+d1+d2+d3+d4+d5+d6+d7+d8+d9+d10);
+            $.ajax({
+                type : "post",
+                url : "http://localhost:8080/Updateorder_Servlet",
+                dataType: 'json',
+                data:{"order_id":d0,"username":d1,"mall_id":d2,"mall_count":d3,"order_allprice":d4,"consignee":d5,"cellnumber":d6,"address":d7,"ispay":d8,"issend":d9,"isreceive":d10},
+                success : function(data)
+                {
+                    alert(data[0].success);
+                },
+                error : function()
+                {
+                    alert("数据传输失败!");
+                }
+            });
+
         }
     }
+
 </script>
 </body>
 </html>
