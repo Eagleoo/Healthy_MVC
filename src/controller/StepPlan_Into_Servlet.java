@@ -24,10 +24,10 @@ public class StepPlan_Into_Servlet extends HttpServlet {
         response.setCharacterEncoding("utf-8");
 
         //action为json数组
-        String action=request.getParameter("dao.vo.StepPlan");
+        String action=request.getParameter("StepPlan");
 
 
-            stepPlan= JsonTools.Json_To_StepPlan("dao.vo.StepPlan",action);
+            stepPlan= JsonTools.Json_To_StepPlan("StepPlan",action);
             try {
                 Factory.getPlanDAOImplProxy().add_step_plan(stepPlan);
             } catch (Exception e) {

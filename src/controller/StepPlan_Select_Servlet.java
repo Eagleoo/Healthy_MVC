@@ -25,7 +25,7 @@ public class StepPlan_Select_Servlet extends HttpServlet {
         response.setCharacterEncoding("utf-8");
 
         //action为json数组
-        String action=request.getParameter("dao.vo.StepPlan");
+        String action=request.getParameter("StepPlan");
 
         try {
             JsonTools jsonTools=new JsonTools();

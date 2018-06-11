@@ -23,6 +23,7 @@ public class selectaddr_Servlet extends HttpServlet {
 
         List<Address> list=new LinkedList<Address>();
         String username=request.getParameter("username");
+        System.out.println(username);
         try {
             list= Factory.getMallDAOImplProxy().selectaddr(username);
             String jsonString= JsonTools.createJsonString("address",list);

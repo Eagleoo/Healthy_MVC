@@ -32,11 +32,4 @@ public class Plan_Count_Servlet extends HttpServlet {
                 e.printStackTrace();
             }
     }
-
-    public static void main(String[] args) throws Exception {
-        int tem;
-        tem=Factory.getPlanDAOImplProxy().count_plan();
-        String jsonString= JsonTools.createJsonInt("count",tem);
-
-    }
 }

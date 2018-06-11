@@ -28,7 +28,7 @@ public class Plan_Servlet extends HttpServlet {
         response.setCharacterEncoding("utf-8");
 
         //action为json数组
-        String action=request.getParameter("dao.vo.Plan");
+        String action=request.getParameter("Plan");
 
         if(action!=null){
             plan= JsonTools.Json_To_PlanList("plan",action);
