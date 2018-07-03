@@ -313,15 +313,17 @@
         <servlet-name>Selectorder_Servlet</servlet-name>
         <url-pattern>/Selectorder_Servlet</url-pattern>
     </servlet-mapping>
+
     <servlet>
     <servlet-name>Deleteorder_Servlet</servlet-name>
     <servlet-class>web_servlet.Deleteorder_Servlet</servlet-class>
-</servlet>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Deleteorder_Servlet</servlet-name>
         <url-pattern>/Deleteorder_Servlet</url-pattern>
     </servlet-mapping>
 
+<<<<<<< HEAD
 
     <servlet>
         <servlet-name>ClientLogin</servlet-name>
@@ -516,4 +518,14 @@
         <url-pattern>/circle/servlet/Dynamic</url-pattern>
     </servlet-mapping>
 
+=======
+    <servlet>
+        <servlet-name>Updateorder_Servlet</servlet-name>
+        <servlet-class>web_servlet.Updateorder_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Updateorder_Servlet</servlet-name>
+        <url-pattern>/Updateorder_Servlet</url-pattern>
+    </servlet-mapping>
+>>>>>>> f4c6544bb32f7d424737d660696d06e422f893d3
 </web-app>

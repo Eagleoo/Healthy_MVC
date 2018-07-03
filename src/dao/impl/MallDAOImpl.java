@@ -60,7 +60,6 @@ public class MallDAOImpl implements IMallDAO {
         String sql ="SELECT *  FROM mall";
         PreparedStatement ps = conn.prepareStatement(sql);
         ResultSet rs = ps.executeQuery();
-        System.out.println("ssssssssssss");
         try {
             while (rs.next()) {
                 mall=new Mall();
@@ -263,6 +262,26 @@ public class MallDAOImpl implements IMallDAO {
         ps.executeUpdate();
         return true;
     }
+
+    @Override
+    public boolean updateorder(String order_id, String username, String mall_id, String address, String order_count, String allprice, String consignee, String cellnumber, String ispay, String issend, String isreceive) throws Exception {
+        String sql="UPDATE mall_order SET username=?,mall_id=?,order_count=?,order_allprice=?,consignee=?,cellnumber=?,address=?,ispay=?,issend=?,isreceive=? WHERE order_id=?";
+        PreparedStatement ps=conn.prepareStatement(sql);
+        ps.setString(1,username);
+        ps.setString(2,mall_id);
+        ps.setString(3,order_count);
+        ps.setString(4,allprice);
+        ps.setString(5,consignee);
+        ps.setString(6,cellnumber);
+        ps.setString(7,address);
+        ps.setString(8,ispay);
+        ps.setString(9,issend);
+        ps.setString(10,isreceive);
+        ps.setString(11,order_id);
+        ps.executeUpdate();
+        return true;
+    }
+
     //根据id查询详情页面图片
     @Override
     public  List<Detail_img> selectdetailimgbyid(String mall_id) throws Exception {
